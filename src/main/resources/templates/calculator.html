@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>My first SpringBoot project - calculator</title>
+</head>
+<body>
+  <h1>Spring calculator</h1>
+  <form action="/calculator" method="post">
+    <label>First number:
+           <input type="number" id="number1" name="number1" value="0">
+    </label></br>
+
+    <label>Operation:
+            <select id="operation" name="operation">
+                <option value="+">Plus</option>
+                <option value="-">Minus</option>
+                <option value="*">Multiplication</option>
+                <option value="/">Divide by</option>
+            </select></br>
+    </label>
+
+    <label>Second number:
+            <input type="number" id="number2" name="number2" value="0">
+    </label></br>
+
+    <input type="submit" value="Submit"> <input type="reset" value="Reset">
+  </form>
+
+
+</body>
+</html>
