@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="171be204-8644-4c03-b51a-4e7c0a539f03" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/kalipero/kalkulacka/controllers/CalculatorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/kalipero/kalkulacka/controllers/CalculatorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/CalculatorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/kalipero/kalkulacka/models/CalculatorDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/models/CalculatorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/kalipero/kalkulacka/models/CalculatorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/calculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/calculator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/result.html" afterDir="false" />
-    </list>
+    <list default="true" id="171be204-8644-4c03-b51a-4e7c0a539f03" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
