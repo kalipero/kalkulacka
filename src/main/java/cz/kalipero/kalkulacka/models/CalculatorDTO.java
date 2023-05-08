@@ -1,4 +1,4 @@
-package models;
+package cz.kalipero.kalkulacka.models;
 
 public class CalculatorDTO {
     private float number1;

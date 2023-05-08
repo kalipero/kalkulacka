@@ -1,21 +1,19 @@
 package cz.kalipero.kalkulacka.controllers;
 
-import ch.qos.logback.core.model.Model;
-import models.CalculatorDTO;
-import models.CalculatorService;
+
+import cz.kalipero.kalkulacka.models.CalculatorDTO;
+import cz.kalipero.kalkulacka.models.CalculatorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("calculator")
 public class CalculatorController {
     @Autowired
     private CalculatorService calculatorService;
-    @GetMapping()
+    @GetMapping
     public String renderCalculator(@ModelAttribute CalculatorDTO calculatorDTO){
         return "calculator";
     }
@@ -28,6 +26,9 @@ public class CalculatorController {
         model.addAttribute("result", result);
         return "result";
     }
-
+    @ExceptionHandler(IllegalArgumentException.class)
+    public String handlerIllegalArgumentException(){
+        return "invalid-form";
+    }
 
 }
